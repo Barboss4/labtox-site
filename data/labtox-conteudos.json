@@ -1,9 +1,55 @@
 {
   "formato": "labtox-conteudos-v1",
-  "gerado_em": null,
-  "noticias": [],
-  "publicacoes": [],
+  "noticias": [
+    {
+      "id": 2,
+      "titulo": "teste",
+      "conteudo": "teste teste",
+      "categoria": "teste",
+      "imagem_url": "r2://uploads/1/34f1a560-522e-4f8e-b915-264de6693a79.png",
+      "aprovado_em": "2026-10-10 15:09:56"
+    },
+    {
+      "id": 1,
+      "titulo": "teste",
+      "conteudo": "teste teste",
+      "categoria": "teste",
+      "imagem_url": "",
+      "aprovado_em": "2026-10-10 15:03:43"
+    }
+  ],
+  "publicacoes": [
+    {
+      "id": 1,
+      "titulo": "A Comprehensive Study to Compare Different Compound Representations for Predicting Carcinogenicity In Vivo",
+      "autores": "Iuri Barbosa Pereira; Rogerio Salvini; Eloisa Dutra Caldas",
+      "ano": 2026,
+      "revista": "Journal of Applied Toxicology",
+      "resumo": "ABSTRACT Carcinogenicity evaluation is a critical component of chemical risk assessment, yet traditional in vivo testing remains time consuming, costly, and ethically challenging. Computational approaches based on machine learning offer promising alternatives, but the relative contributions of different molecular representation strategies for predicting in vivo carcinogenicity remain insufficiently explored. This study aimed to systematically evaluate the impact of molecular embeddings, classical descriptors, and toxicophore structural alerts on the performance of machine learning models for predicting in vivo carcinogenicity. A curated dataset of 2090 distinct compounds tested in vivo with rodents was assembled by integrating five major toxicological databases. Compounds were represented using classical molecular descriptors, descriptor sets enriched with structural alerts, SMILES‐derived molecular embeddings, and hybrid combinations of these representations. Twenty‐four machine learning classifiers were benchmarked under a 10‐fold stratified cross‐validation protocol. Model performance was assessed using accuracy, precision, recall, F1‐score, and AUC‐ROC, with statistical significance evaluated using Friedman and Nemenyi tests. Results indicated that representations combining molecular descriptors with structural alerts tend to yield the most consistent predictive performance across models. Embeddings contribute as complementary features but do not replace classical representations. These findings reinforce the central role of chemically interpretable, expert‐driven descriptors, particularly those incorporating genotoxic structural alerts, in regulatory‐relevant carcinogenicity modeling.",
+      "doi": "10.1002/jat.70324",
+      "aprovado_em": "2026-10-10 14:10:24"
+    }
+  ],
   "galeria": [],
-  "equipe": [],
-  "servicos": []
+  "equipe": [
+    {
+      "nome": "teste",
+      "cargo": "teste",
+      "descricao": "teste",
+      "foto_url": "r2://uploads/1/163d134d-55d7-40a8-a679-30e99f0ed87c.png",
+      "lattes_url": null,
+      "orcid": null,
+      "ordem": 0
+    }
+  ],
+  "servicos": [
+    {
+      "titulo": "teste",
+      "descricao": "teste teste",
+      "categoria": "teste",
+      "imagem_url": null,
+      "ordem": 0
+    }
+  ],
+  "gerado_em": "2026-10-10T17:52:43.246Z"
 }
