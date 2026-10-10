@@ -1,9 +1,18 @@
 {
   "formato": "labtox-conteudos-v1",
-  "noticias": [],
+  "noticias": [
+    {
+      "id": 7,
+      "titulo": "[TESTE] LabTox destaca atividades de pesquisa, ensino e extensão na Universidade de Brasília",
+      "conteudo": "O Laboratório de Toxicologia (LabTox), vinculado à Universidade de Brasília (UnB), constitui um espaço dedicado ao desenvolvimento científico e à formação de profissionais na área de Toxicologia.\n\n**Esta é uma notícia demonstrativa, criada exclusivamente para testar a apresentação de conteúdos no site institucional.**\n\n## Pesquisa científica e inovação\n\nA Toxicologia é uma área essencial para compreender os efeitos de substâncias químicas sobre os organismos vivos e o meio ambiente.\n\nEntre as abordagens utilizadas nesse campo estão as análises laboratoriais, a avaliação de risco, os métodos alternativos à experimentação animal e as ferramentas computacionais aplicadas à predição de toxicidade.\n\nA integração dessas metodologias contribui para o avanço do conhecimento científico e para o desenvolvimento de estratégias mais eficientes de avaliação da segurança química.\n\n## Ensino e formação acadêmica\n\nAlém das atividades de pesquisa, os laboratórios universitários desempenham um papel importante na formação de estudantes de graduação e pós-graduação.\n\nA participação em projetos científicos permite desenvolver competências como planejamento experimental, análise de dados, interpretação de resultados e comunicação científica.\n\n## Divulgação e colaboração\n\nEste portal foi desenvolvido para facilitar o acesso às informações sobre as atividades do LabTox, incluindo notícias, publicações científicas, serviços e registros de eventos.\n\nA proposta é aproximar o laboratório da comunidade acadêmica e ampliar a visibilidade das iniciativas de pesquisa, ensino e extensão.\n\n---\n\n*Conteúdo fictício para teste de layout. Não representa um comunicado oficial do LabTox.*",
+      "categoria": "",
+      "imagem_url": "",
+      "aprovado_em": "2026-10-10 19:51:03"
+    }
+  ],
   "publicacoes": [],
   "galeria": [],
   "equipe": [],
   "servicos": [],
-  "gerado_em": "2026-10-10T19:42:35.012Z"
+  "gerado_em": "2026-10-10T19:51:05.426Z"
 }
