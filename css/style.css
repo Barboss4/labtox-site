@@ -61,3 +61,39 @@
 /* Ajuste para listas curtas e ocultação de controles sem rolagem */
 @media(min-width:991px){.news-track[data-count="2"]>.card{flex-basis:calc((100% - 21px)/2)}.news-track[data-count="1"]>.card{flex-basis:min(100%,380px)}}
 .news-dots[hidden]{display:none}
+
+
+/* LabTox v0.3 — logotipo e banners configurados por nome de arquivo.
+   Se a imagem ainda não foi enviada, o layout original é mantido. */
+.brand-icon{flex:0 0 auto;overflow:visible}
+.brand-icon:has(img){background:transparent;box-shadow:none;border-radius:0}
+.brand-icon img{display:block;width:100%;height:100%;object-fit:contain;border-radius:0}
+.footer .brand-icon:has(img){background:#fff;box-shadow:none;padding:5px;border-radius:11px}
+.brand--horizontal{min-width:0}
+.brand--horizontal .brand-icon{width:clamp(134px,15vw,190px);height:56px}
+.brand--horizontal .brand-copy{display:none}
+.footer .brand--horizontal .brand-icon{width:min(190px,100%);height:62px}
+@media(max-width:600px){.brand--horizontal .brand-icon{width:148px;height:47px}}
+
+/* O fundo com foto só é ativado quando o navegador confirmou que o arquivo existe. */
+.page-hero.has-banner{
+  background-image:linear-gradient(105deg,rgba(11,37,69,.83),rgba(16,53,88,.67)),var(--labtox-banner-image);
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  border-bottom-color:#1d466a;
+}
+.page-hero.has-banner::after{display:none}
+.page-hero.has-banner h1{color:#fff;text-shadow:0 2px 12px #001a3440}
+.page-hero.has-banner p{color:#e4edf5}
+.page-hero.has-banner .breadcrumb,
+.page-hero.has-banner .breadcrumb a{color:#e7f0f9}
+.page-hero.has-banner .breadcrumb a:hover{color:#fff;text-decoration:underline}
+
+.hero.has-banner{
+  background-image:linear-gradient(105deg,rgba(8,34,64,.90),rgba(15,49,82,.72)),var(--labtox-banner-image);
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
+.hero.has-banner::before{display:none}

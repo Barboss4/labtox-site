@@ -34,7 +34,7 @@
     return `<div class="empty"><div class="symbol" aria-hidden="true">◇</div><h3>${esc(message)}</h3><p>${esc(hint)}</p></div>`;
   }
   function brand(){
-    const logo=C.logo ? `<img src="${esc(C.logo)}" alt="" onerror="this.remove();this.parentElement.textContent='LT'">` : 'LT';
+    const logo=C.logo ? `<img src="${esc(C.logo)}" alt="" onerror="this.onerror=null;this.parentElement.textContent='LT'">` : 'LT';
     return `<a class="brand" href="index.html" aria-label="LabTox — Início"><span class="brand-icon" aria-hidden="true">${logo}</span><span class="brand-copy"><strong>Lab<span>Tox</span></strong><small>Laboratório de Toxicologia</small></span></a>`;
   }
   function chrome(){
@@ -46,6 +46,31 @@
     nav.addEventListener('click',ev=>{if(ev.target.closest('a')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');}});
     el('back-top').addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
     addEventListener('scroll',()=>el('back-top').classList.toggle('visible',scrollY>450),{passive:true});
+  }
+  // Identidade visual opcional: não exige alterações manuais no HTML ou no CSS.
+  // Mostra o fundo original até uma fotografia de banner realmente existir.
+  function setupIdentity(){
+    document.querySelectorAll('.brand-icon img').forEach(img => {
+      const fitLogo = () => {
+        if (img.naturalWidth && img.naturalHeight && img.naturalWidth / img.naturalHeight >= 1.65) {
+          img.closest('.brand')?.classList.add('brand--horizontal');
+        }
+      };
+      img.addEventListener('load', fitLogo, {once:true});
+      if(img.complete && img.naturalWidth) fitLogo();
+    });
+
+    const path = C.banners && C.banners[page];
+    if (typeof path !== 'string' || !/^assets\/banners\/[a-z0-9_-]+\.(?:jpg|jpeg|png|webp)$/i.test(path)) return;
+    const element = document.querySelector(page === 'inicio' ? '.hero' : '.page-hero');
+    if (!element) return;
+    const preloader = new Image();
+    preloader.onload = () => {
+      element.style.setProperty('--labtox-banner-image', `url("${path}")`);
+      element.classList.add('has-banner');
+    };
+    preloader.onerror = () => {}; // Sem imagem: permanece o fundo original da página.
+    preloader.src = path;
   }
   function cardNews(n){
     const id=Number(n.id);
@@ -247,5 +272,5 @@
     if(page==='album')renderDetails('galeria');
     if(page==='contato')renderContact();
   }
-  document.addEventListener('DOMContentLoaded',()=>{chrome();if(el('lightbox')){el('close-lightbox').addEventListener('click',closeLightbox);el('lightbox').addEventListener('click',ev=>{if(ev.target===el('lightbox'))closeLightbox();});addEventListener('keydown',ev=>{if(ev.key==='Escape')closeLightbox();});}load();});
+  document.addEventListener('DOMContentLoaded',()=>{chrome();setupIdentity();if(el('lightbox')){el('close-lightbox').addEventListener('click',closeLightbox);el('lightbox').addEventListener('click',ev=>{if(ev.target===el('lightbox'))closeLightbox();});addEventListener('keydown',ev=>{if(ev.key==='Escape')closeLightbox();});}load();});
 })();
