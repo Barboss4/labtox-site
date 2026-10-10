@@ -2,6 +2,14 @@
   "formato": "labtox-conteudos-v1",
   "noticias": [
     {
+      "id": 6,
+      "titulo": "teste teste teste",
+      "conteudo": "asddsadaaddas",
+      "categoria": "",
+      "imagem_url": "",
+      "aprovado_em": "2026-10-10 18:19:30"
+    },
+    {
       "id": 5,
       "titulo": "teste teste",
       "conteudo": "asdasdasdad",
@@ -75,5 +83,5 @@
       "ordem": 0
     }
   ],
-  "gerado_em": "2026-10-10T18:19:17.682Z"
+  "gerado_em": "2026-10-10T18:19:32.317Z"
 }
