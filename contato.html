@@ -13,7 +13,46 @@
 </head>
 <body data-page="contato">
   <div id="site-header"></div>
-  <main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Início</a><span aria-hidden="true">/</span>Contato</div><h1>Contato</h1><p>Informações institucionais e canais para falar com o Laboratório de Toxicologia.</p></div></section><section class="section"><div class="container"><div class="contact-grid"><article class="info-card"><span class="kicker">Fale conosco</span><h3>Contato institucional</h3><p>Para dúvidas, informações sobre as atividades ou possíveis colaborações, utilize o contato institucional do laboratório.</p><p><strong>E-mail</strong><br><span id="contact-email">Em atualização</span></p><p id="phone-block"><strong>Telefone</strong><br><span id="contact-phone"></span></p></article><article class="info-card"><span class="kicker">Localização</span><h3>Universidade de Brasília</h3><p id="contact-address">Brasília, DF</p><p>Consulte informações sobre a universidade e seus espaços no portal oficial.</p><a class="btn btn-outline" href="https://www.unb.br/" target="_blank" rel="noopener noreferrer">Portal da UnB ↗</a></article></div><div class="divider"></div><p style="color:var(--muted);font-size:14px">O LabTox não coleta mensagens por formulário neste site. Os dados de contato serão preenchidos quando confirmados oficialmente.</p></div></section></main>
+  <main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Início</a><span aria-hidden="true">/</span>Contato</div><h1>Contato</h1><p>Envie sua mensagem, solicite informações sobre serviços ou proponha uma colaboração.</p></div></section><section class="section" aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="contact-layout">
+      <section class="contact-form-card" aria-labelledby="contact-heading">
+        <span class="kicker">Entre em contato</span>
+        <h2 id="contact-heading">Envie uma mensagem ao LabTox</h2>
+        <p class="contact-intro">Selecione um assunto e descreva sua solicitação. A mensagem será encaminhada ao e-mail institucional do laboratório.</p>
+        <form id="contact-form" action="https://formsubmit.co/labtox@unb.br" method="POST" accept-charset="UTF-8">
+          <input type="hidden" name="_subject" id="form-subject" value="[LabTox] Contato pelo site">
+          <input type="hidden" name="_next" value="https://barboss4.github.io/labtox-site/obrigado.html">
+          <input type="hidden" name="_url" value="https://barboss4.github.io/labtox-site/contato.html">
+          <input type="hidden" name="_template" value="table">
+          <div class="form-honeypot" aria-hidden="true"><label for="form-honey">Deixe este campo vazio</label><input id="form-honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+          <div class="form-row">
+            <div class="form-field"><label for="form-name">Nome completo <span aria-hidden="true">*</span></label><input id="form-name" type="text" name="nome" autocomplete="name" minlength="2" maxlength="120" required placeholder="Seu nome"></div>
+            <div class="form-field"><label for="form-email">Seu e-mail <span aria-hidden="true">*</span></label><input id="form-email" type="email" name="email" autocomplete="email" maxlength="160" required placeholder="nome@exemplo.com"></div>
+          </div>
+          <div class="form-field"><label for="form-topic">Assunto <span aria-hidden="true">*</span></label><select id="form-topic" name="assunto" required>
+              <option value="" selected disabled>Selecione o assunto</option>
+              <option value="Serviços">Serviços e análises</option>
+              <option value="Parcerias">Parcerias e colaborações</option>
+              <option value="Projetos de pesquisa">Projetos de pesquisa</option>
+              <option value="Orientação acadêmica">Orientação acadêmica e estágios</option>
+              <option value="Eventos e visitas">Eventos e visitas técnicas</option>
+              <option value="Informações gerais">Informações gerais</option>
+              <option value="Outros assuntos">Outros assuntos</option>
+            </select></div>
+          <div class="form-field"><label for="form-message">Mensagem <span aria-hidden="true">*</span></label><textarea id="form-message" name="mensagem" rows="7" minlength="10" maxlength="5000" required placeholder="Explique brevemente como podemos ajudar."></textarea></div>
+          <label class="privacy-note"><input type="checkbox" required><span>Estou ciente de que meus dados serão enviados ao serviço externo FormSubmit para encaminhamento ao LabTox. Não incluirei informações sensíveis.</span></label>
+          <button class="btn btn-green contact-submit" type="submit">Enviar mensagem <span aria-hidden="true">↗</span></button>
+          <p class="form-footnote">Campos marcados com * são obrigatórios. O envio poderá solicitar uma verificação antispam.</p>
+        </form>
+      </section>
+      <aside class="contact-details" aria-label="Informações de contato">
+        <article class="info-card"><span class="kicker">Contato direto</span><h3>E-mail institucional</h3><p>Prefere escrever pelo seu próprio aplicativo de e-mail?</p><p class="contact-email" id="contact-email"><a href="mailto:labtox@unb.br">labtox@unb.br</a></p><p>Recebemos solicitações de serviços, parcerias e informações sobre as atividades do laboratório.</p></article>
+        <article class="info-card"><span class="kicker">Localização</span><h3>Universidade de Brasília</h3><p id="contact-address">Universidade de Brasília — Brasília, DF</p><p>Informações sobre a universidade e seus espaços no portal oficial.</p><a class="text-link" href="https://www.unb.br/" target="_blank" rel="noopener noreferrer">Portal da UnB ↗</a></article>
+      </aside>
+    </div>
+  </div>
+</section></main>
   <div id="site-footer"></div>
   <button id="back-top" class="back-top" type="button" aria-label="Voltar ao topo">↑</button>
 </body>

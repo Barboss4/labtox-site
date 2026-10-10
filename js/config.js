@@ -6,7 +6,7 @@ window.LABTOX_CONFIG = {
   siglaInstituicao: 'UnB',
   subtitulo: 'Pesquisa, formação e ciência em toxicologia.',
   descricao: 'Um espaço dedicado à produção e à divulgação do conhecimento científico em toxicologia.',
-  email: '', // Preencher com o e-mail institucional quando definido
+  email: 'labtox@unb.br', // E-mail institucional publicado na página de contato
   endereco: 'Universidade de Brasília — Brasília, DF',
   telefone: '',
   logo: '', // Quando escolher: coloque assets/logo.png e altere para 'assets/logo.png'

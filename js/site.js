@@ -60,7 +60,7 @@
     const validDoi=/^10\.\d{4,9}\/\S+$/i.test(doi);
     return `<article class="paper"><div class="meta">${esc(year)} ${p.revista?'· '+esc(p.revista):''}</div><h3>${esc(p.titulo||'Publicação')}</h3><div class="authors">${esc(p.autores||'')}</div>${p.resumo?`<p>${esc(compact(p.resumo,290))}</p>`:''}<div class="paper-actions">${validDoi?`<a class="btn btn-outline" href="https://doi.org/${encodeURI(doi).replace(/\"/g,'') }" target="_blank" rel="noopener noreferrer">Acessar artigo ↗</a><span class="meta" style="text-transform:none;letter-spacing:0">DOI: ${esc(doi)}</span>`:'<span class="tag">Referência bibliográfica</span>'}</div></article>`;
   }
-  function service(s){return `<article class="card"><div class="card-top">${imageHTML(s.imagem_url,s.titulo,'✧')}</div><div class="card-body"><span class="meta">${esc(s.categoria||'Serviço')}</span><h3>${esc(s.titulo||'Serviço')}</h3><p>${esc(compact(s.descricao,250))}</p><a class="mini-link" href="contato.html">Solicitar informações ↗</a></div></article>`;}
+  function service(s){return `<article class="card"><div class="card-top">${imageHTML(s.imagem_url,s.titulo,'✧')}</div><div class="card-body"><span class="meta">${esc(s.categoria||'Serviço')}</span><h3>${esc(s.titulo||'Serviço')}</h3><p>${esc(compact(s.descricao,250))}</p><a class="mini-link" href="contato.html?assunto=Servi%C3%A7os">Solicitar informações ↗</a></div></article>`;}
   function person(p){
     return `<article class="card team-card"><div class="card-top">${imageHTML(p.foto_url,p.nome,'♙')}</div><div class="card-body"><h3>${esc(p.nome)}</h3><div class="role">${esc(p.cargo||'Equipe LabTox')}</div>${p.descricao?`<p class="desc">${esc(compact(p.descricao,130))}</p>`:''}<div class="team-links">${safeExternal(p.lattes_url)?`<a href="${esc(safeExternal(p.lattes_url))}" target="_blank" rel="noopener noreferrer">Lattes ↗</a>`:''}${p.orcid&&/^\d{4}-\d{4}-\d{4}-[0-9X]{4}$/.test(p.orcid)?`<a href="https://orcid.org/${esc(p.orcid)}" target="_blank" rel="noopener noreferrer">ORCID ↗</a>`:''}</div></div></article>`;
   }
@@ -85,14 +85,101 @@
     }
     flushPara();flushList();return out;
   }
+  function setupHomeNewsCarousel(count) {
+    const track=el('home-news'), controls=el('news-controls'), dots=el('home-news-dots');
+    if(!track||!controls||!dots)return;
+    controls.hidden=count<2;
+    track.dataset.count=String(count);
+    dots.innerHTML='';
+    if(count<2) return;
+    const cards=[...track.querySelectorAll('.card')];
+    const prev=el('home-news-prev'), next=el('home-news-next'), status=el('home-news-status');
+    const motion = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+    let current=0;
+    function visibleCount(){
+      if(!cards.length)return 1;
+      const width=cards[0].getBoundingClientRect().width;
+      return Math.max(1,Math.round(track.clientWidth/Math.max(width,1)));
+    }
+    function updateDots(){
+      const num=Math.max(1,count-visibleCount()+1);
+      if(dots.children.length===num)return;
+      dots.replaceChildren();
+      for(let i=0;i<num;i++){
+        const dot=document.createElement('button');
+        dot.type='button';dot.className='news-dot';
+        dot.setAttribute('aria-label',`Mostrar a partir da notícia ${i+1}`);
+        dot.setAttribute('aria-controls','home-news');
+        dot.addEventListener('click',()=>go(i));
+        dots.appendChild(dot);
+      }
+    }
+    function update(){
+      if(!cards.length)return;
+      controls.hidden=count<=visibleCount();
+      dots.hidden=controls.hidden;
+      updateDots();
+      const first=cards[0].offsetLeft;
+      let min=Infinity;
+      cards.forEach((card,index)=>{
+        const diff=Math.abs(card.offsetLeft-first-track.scrollLeft);
+        if(diff<min){min=diff;current=index;}
+      });
+      const shown=Math.min(count,current+visibleCount());
+      status.textContent=`Notícias ${current+1} a ${shown} de ${count}`;
+      prev.disabled=current===0;
+      next.disabled=track.scrollLeft+track.clientWidth >= track.scrollWidth-3;
+      [...dots.children].forEach((dot,i)=>dot.setAttribute('aria-current',String(i===current)));
+    }
+    function go(i){
+      const index=Math.max(0,Math.min(cards.length-1,i));
+      const target=cards[index].offsetLeft-cards[0].offsetLeft;
+      track.scrollTo({left:Math.min(target,track.scrollWidth-track.clientWidth),behavior:motion});
+      if(motion==='auto')update();
+    }
+    prev.addEventListener('click',()=>go(current-1));
+    next.addEventListener('click',()=>go(current+1));
+    track.addEventListener('keydown',ev=>{
+      if(ev.key==='ArrowRight'){ev.preventDefault();go(current+1);}
+      if(ev.key==='ArrowLeft'){ev.preventDefault();go(current-1);}
+    });
+    let raf=null;
+    track.addEventListener('scroll',()=>{
+      if(raf!==null)cancelAnimationFrame(raf);
+      raf=requestAnimationFrame(()=>{raf=null;update();});
+    },{passive:true});
+    addEventListener('resize',update,{passive:true});
+    update();
+  }
+  function publicationGroups(items){
+    if(!items.length)return '';
+    const years=new Map();
+    for(const item of items){
+      const num=Number(item.ano);
+      const year=Number.isInteger(num)&&num>=1900&&num<=2100?String(num):'Sem ano informado';
+      if(!years.has(year))years.set(year,[]);
+      years.get(year).push(item);
+    }
+    return [...years].sort(([a],[b])=>{
+      if(a==='Sem ano informado')return 1;
+      if(b==='Sem ano informado')return -1;
+      return Number(b)-Number(a);
+    }).map(([year,group])=>`<section class="publication-year" aria-label="Publicações de ${esc(year)}"><div class="publication-year-heading"><h2>${esc(year)}</h2><span>${group.length} ${group.length===1?'publicação':'publicações'}</span></div><div class="stack">${group.map(publication).join('')}</div></section>`).join('');
+  }
   function renderHome(){
-    const news=records.noticias.slice().sort((a,b)=>String(b.aprovado_em||'').localeCompare(String(a.aprovado_em||''))).slice(0,3);
+    const news=records.noticias.slice().sort((a,b)=>{
+      const ad=String(a.aprovado_em||a.data_publicacao||a.criado_em||'');
+      const bd=String(b.aprovado_em||b.data_publicacao||b.criado_em||'');
+      return bd.localeCompare(ad)||Number(b.id||0)-Number(a.id||0);
+    }).slice(0,5);
     const papers=records.publicacoes.slice().sort((a,b)=>Number(b.ano||0)-Number(a.ano||0)).slice(0,3);
     const albums=records.galeria.slice().sort((a,b)=>String(b.data_registro||'').localeCompare(String(a.data_registro||''))).slice(0,3);
     el('home-news').innerHTML=news.length?news.map(cardNews).join(''):empty('As primeiras notícias aparecerão aqui.');
+    if(!news.length)el('home-news').classList.add('news-empty');
+    else setupHomeNewsCarousel(news.length);
     el('home-papers').innerHTML=papers.length?papers.map(publication).join(''):empty('As publicações científicas aparecerão aqui.');
     el('home-albums').innerHTML=albums.length?albums.map(cardAlbum).join(''):empty('A galeria de atividades será exibida aqui.');
-    for(const id of ['home-news','home-papers','home-albums'])if(el(id).querySelector('.empty'))el(id).style.display='block';
+    for(const id of ['home-papers','home-albums'])if(el(id).querySelector('.empty'))el(id).style.display='block';
   }
   function renderList(type,id,renderItem,emptyTitle){
     let items=records[type].slice();const root=el(id);if(!root)return;
@@ -104,7 +191,7 @@
     function update(){const q=String(search?.value||'').trim().toLocaleLowerCase('pt-BR');const f=select?.value||'';
       const filtered=items.filter(x=>{const text=Object.entries(x).filter(([k])=>!['versao_publicada','fotos','dados_json'].includes(k)).map(([,v])=>typeof v==='string'?v:'').join(' ').toLocaleLowerCase('pt-BR');return (!q||text.includes(q))&&(!f||String(x[selectField]||'')===f);});
       if(el('results-count'))el('results-count').textContent=`${filtered.length} ${filtered.length===1?'resultado':'resultados'}`;
-      root.innerHTML=filtered.length?filtered.map(renderItem).join(''):empty(emptyTitle,q||f?'Tente outro termo ou retire o filtro.':'O conteúdo aparecerá após aprovação e sincronização.');
+      root.innerHTML=filtered.length?(type==='publicacoes'?publicationGroups(filtered):filtered.map(renderItem).join('')):empty(emptyTitle,q||f?'Tente outro termo ou retire o filtro.':'O conteúdo aparecerá após aprovação e sincronização.');
       if(root.querySelector('.empty'))root.style.display='block';else root.style.display='';
     }
     search?.addEventListener('input',update);select?.addEventListener('change',update);update();
@@ -126,7 +213,21 @@
   }
   function openLightbox(src,alt){const d=el('lightbox');el('lightbox-image').src=src;el('lightbox-image').alt=alt;d.classList.add('open');d.setAttribute('aria-hidden','false');el('close-lightbox').focus();}
   function closeLightbox(){const d=el('lightbox');d.classList.remove('open');d.setAttribute('aria-hidden','true');el('lightbox-image').src='';}
-  function renderContact(){el('contact-email').innerHTML=C.email?`<a href="mailto:${esc(C.email)}">${esc(C.email)}</a>`:'E-mail institucional em atualização';el('contact-address').textContent=C.endereco||'Universidade de Brasília — Brasília, DF';if(C.telefone){el('contact-phone').textContent=C.telefone;}else{el('phone-block')?.remove();}}
+  function renderContact(){
+    const email=el('contact-email');
+    if(email)email.innerHTML=C.email?`<a href="mailto:${esc(C.email)}">${esc(C.email)}</a>`:'E-mail institucional em atualização';
+    if(el('contact-address'))el('contact-address').textContent=C.endereco||'Universidade de Brasília — Brasília, DF';
+    const form=el('contact-form');
+    if(form){
+      const topic=el('form-topic');const subject=el('form-subject');
+      const setSubject=()=>{subject.value='[LabTox] '+(topic.value||'Contato pelo site');};
+      topic.addEventListener('change',setSubject);
+      const q=new URLSearchParams(location.search);
+      const selected=q.get('assunto');
+      if(selected&&[...topic.options].some(opt=>opt.value===selected)){topic.value=selected;setSubject();}
+      form.addEventListener('submit',setSubject);
+    }
+  }
   async function load(){
     try{
       const res=await fetch(C.dados||'data/labtox-conteudos.json',{cache:'no-cache'});
