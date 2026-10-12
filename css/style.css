@@ -81,3 +81,16 @@
 .team-section .section-head { margin-bottom: 22px; }
 /* Controles cronológicos compatíveis com o filtro já existente. */
 #album-order, #photo-order { min-width: 205px; }
+
+
+/* Remover Início / Nome da página */
+.breadcrumb {
+    display: none;
+}
+
+/* Deixar LabTox totalmente branco no rodapé */
+.footer .brand-copy strong,
+.footer .brand-copy strong span {
+    color: #ffffff !important;
+}
+
