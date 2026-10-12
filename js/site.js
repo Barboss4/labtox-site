@@ -3,9 +3,9 @@
   'use strict';
   const C = window.LABTOX_CONFIG || {};
   const page = document.body.dataset.page || 'inicio';
-  const names = {inicio:'Início',noticias:'Notícias',noticia:'Notícias',publicacoes:'Publicações',servicos:'Serviços',equipe:'Equipe',galeria:'Galeria',album:'Galeria',contato:'Contato'};
-  const navigation = [['inicio','Início','index.html'],['noticias','Notícias','noticias.html'],['publicacoes','Publicações','publicacoes.html'],['servicos','Serviços','servicos.html'],['equipe','Equipe','equipe.html'],['galeria','Galeria','galeria.html'],['contato','Contato','contato.html']];
-  let records = {noticias:[],publicacoes:[],equipe:[],servicos:[],galeria:[]};
+  const names = {inicio:'Início',noticias:'Notícias',noticia:'Notícias',publicacoes:'Publicações',servicos:'Serviços',equipe:'Equipe',galeria:'Galeria',album:'Galeria',contato:'Contato',ensino:'Ensino'};
+  const navigation = [['inicio','Início','index.html'],['noticias','Notícias','noticias.html'],['publicacoes','Publicações','publicacoes.html'],['servicos','Serviços','servicos.html'],['ensino','Ensino','ensino.html'],['equipe','Equipe','equipe.html'],['galeria','Galeria','galeria.html'],['contato','Contato','contato.html']];
+  let records = {noticias:[],publicacoes:[],equipe:[],servicos:[],galeria:[],ensino:[]};
   const esc = x => String(x ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
   const compact = (t, n=155) => String(t||'').replace(/[#*_\[\]<>]/g,'').replace(/\s+/g,' ').trim().slice(0,n) + (String(t||'').length>n?'…':'');
   const safeExternal = str => {try{const u=new URL(String(str));return u.protocol==='https:' ? u.href : '';}catch{return '';}};
@@ -86,6 +86,10 @@
     return `<article class="paper"><div class="meta">${esc(year)} ${p.revista?'· '+esc(p.revista):''}</div><h3>${esc(p.titulo||'Publicação')}</h3><div class="authors">${esc(p.autores||'')}</div>${p.resumo?`<p>${esc(compact(p.resumo,290))}</p>`:''}<div class="paper-actions">${validDoi?`<a class="btn btn-outline" href="https://doi.org/${encodeURI(doi).replace(/\"/g,'') }" target="_blank" rel="noopener noreferrer">Acessar artigo ↗</a><span class="meta" style="text-transform:none;letter-spacing:0">DOI: ${esc(doi)}</span>`:'<span class="tag">Referência bibliográfica</span>'}</div></article>`;
   }
   function service(s){return `<article class="card"><div class="card-top">${imageHTML(s.imagem_url,s.titulo,'✧')}</div><div class="card-body"><span class="meta">${esc(s.categoria||'Serviço')}</span><h3>${esc(s.titulo||'Serviço')}</h3><p>${esc(compact(s.descricao,250))}</p><a class="mini-link" href="contato.html?assunto=Servi%C3%A7os">Solicitar informações ↗</a></div></article>`;}
+  function teaching(item){
+    const url=safeExternal(item.link_url);
+    return `<article class="card"><div class="card-body"><span class="meta">${esc(item.categoria||'Ensino')}</span><h3>${esc(item.titulo)}</h3><p>${esc(item.descricao||'')}</p>${url?`<a class="mini-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">Saiba mais ↗</a>`:''}</div></article>`;
+  }
   function person(p){
     return `<article class="card team-card"><div class="card-top">${imageHTML(p.foto_url,p.nome,'♙')}</div><div class="card-body"><h3>${esc(p.nome)}</h3><div class="role">${esc(p.cargo||'Equipe LabTox')}</div>${p.descricao?`<p class="desc">${esc(compact(p.descricao,130))}</p>`:''}<div class="team-links">${safeExternal(p.lattes_url)?`<a href="${esc(safeExternal(p.lattes_url))}" target="_blank" rel="noopener noreferrer">Lattes ↗</a>`:''}${p.orcid&&/^\d{4}-\d{4}-\d{4}-[0-9X]{4}$/.test(p.orcid)?`<a href="https://orcid.org/${esc(p.orcid)}" target="_blank" rel="noopener noreferrer">ORCID ↗</a>`:''}</div></div></article>`;
   }
@@ -214,12 +218,13 @@
       select.innerHTML='<option value="">Todos</option>'+opt.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');
     }
     function update(){const q=String(search?.value||'').trim().toLocaleLowerCase('pt-BR');const f=select?.value||'';
-      const filtered=items.filter(x=>{const text=Object.entries(x).filter(([k])=>!['versao_publicada','fotos','dados_json'].includes(k)).map(([,v])=>typeof v==='string'?v:'').join(' ').toLocaleLowerCase('pt-BR');return (!q||text.includes(q))&&(!f||String(x[selectField]||'')===f);});
+      let filtered=items.filter(x=>{const text=Object.entries(x).filter(([k])=>!['versao_publicada','fotos','dados_json'].includes(k)).map(([,v])=>typeof v==='string'?v:'').join(' ').toLocaleLowerCase('pt-BR');return (!q||text.includes(q))&&(!f||String(x[selectField]||'')===f);});
+      if(type==='galeria'){const asc=el('album-order')?.value==='asc';filtered.sort((a,b)=>((String(a.data_registro||'').localeCompare(String(b.data_registro||'')))||Number(a.id||0)-Number(b.id||0))*(asc?1:-1));}
       if(el('results-count'))el('results-count').textContent=`${filtered.length} ${filtered.length===1?'resultado':'resultados'}`;
       root.innerHTML=filtered.length?(type==='publicacoes'?publicationGroups(filtered):filtered.map(renderItem).join('')):empty(emptyTitle,q||f?'Tente outro termo ou retire o filtro.':'O conteúdo aparecerá após aprovação e sincronização.');
       if(root.querySelector('.empty'))root.style.display='block';else root.style.display='';
     }
-    search?.addEventListener('input',update);select?.addEventListener('change',update);update();
+    search?.addEventListener('input',update);select?.addEventListener('change',update);el('album-order')?.addEventListener('change',update);update();
   }
   function renderDetails(type){
     const id=Number(new URLSearchParams(location.search).get('id'));const root=el('detail-root');
@@ -232,8 +237,12 @@
     }else{
       document.title=`${item.titulo} | Galeria LabTox`;
       const photos=Array.isArray(item.fotos)?item.fotos:[];
-      root.innerHTML=`<a class="text-link" href="galeria.html">← Voltar para Galeria</a><div class="divider"></div><span class="meta">${date(item.data_registro)}${item.local?' · '+esc(item.local):''}</span><h1 style="font-size:clamp(32px,4.1vw,48px);margin:13px 0 15px">${esc(item.titulo)}</h1><p style="color:var(--muted)">${esc(item.descricao||'')}</p><div class="album-grid" style="margin-top:27px">${photos.length?photos.map((f,i)=>`<figure class="album-photo"><img src="${esc(media(f.imagem_url)||'assets/missing-photo.png')}" alt="${esc(f.legenda||`Fotografia ${i+1} do álbum`)}" loading="lazy" data-zoom="true" onerror="this.style.visibility='hidden'"><figcaption>${esc(f.legenda||`Foto ${i+1}`)}</figcaption></figure>`).join(''):empty('Álbum ainda sem fotografias disponíveis','As imagens serão exibidas depois da sincronização dos arquivos aprovados.')}</div>`;
-      root.querySelectorAll('[data-zoom]').forEach(img=>img.addEventListener('click',()=>openLightbox(img.src,img.alt)));
+      const chronological=(asc)=>photos.map((f,i)=>({...f,_originalIndex:i})).sort((a,b)=>{const c=String(a.data_foto||item.data_registro||'').localeCompare(String(b.data_foto||item.data_registro||''));return (asc?c:-c)||(a._originalIndex-b._originalIndex);});
+      const photoMarkup=(asc)=>chronological(asc).map((f,i)=>`<figure class="album-photo"><img src="${esc(media(f.imagem_url)||'assets/missing-photo.png')}" alt="${esc(f.legenda||`Fotografia ${i+1} do álbum`)}" loading="lazy" data-zoom="true" onerror="this.style.visibility='hidden'"><figcaption>${f.data_foto?esc(date(f.data_foto))+' · ':''}${esc(f.legenda||`Foto ${i+1}`)}</figcaption></figure>`).join('');
+      root.innerHTML=`<a class="text-link" href="galeria.html">← Voltar para Galeria</a><div class="divider"></div><span class="meta">${date(item.data_registro)}${item.local?' · '+esc(item.local):''}</span><h1 style="font-size:clamp(32px,4.1vw,48px);margin:13px 0 15px">${esc(item.titulo)}</h1><p style="color:var(--muted)">${esc(item.descricao||'')}</p><div class="filters" style="margin-top:22px"><label for="photo-order">Ordem das fotografias</label><select id="photo-order" class="filter-select"><option value="asc">Mais antigas primeiro</option><option value="desc">Mais recentes primeiro</option></select></div><div class="album-grid" id="album-photos" style="margin-top:15px">${photos.length?photoMarkup(true):empty('Álbum ainda sem fotografias disponíveis','As imagens serão exibidas depois da sincronização dos arquivos aprovados.')}</div>`;
+      const wireZoom=()=>root.querySelectorAll('[data-zoom]').forEach(img=>img.addEventListener('click',()=>openLightbox(img.src,img.alt)));
+      el('photo-order')?.addEventListener('change',e=>{el('album-photos').innerHTML=photoMarkup(e.target.value==='asc');wireZoom();});
+      wireZoom();
     }
   }
   function openLightbox(src,alt){const d=el('lightbox');el('lightbox-image').src=src;el('lightbox-image').alt=alt;d.classList.add('open');d.setAttribute('aria-hidden','false');el('close-lightbox').focus();}
@@ -266,7 +275,14 @@
     if(page==='noticias')renderList('noticias','news-list',cardNews,'Nenhuma notícia disponível');
     if(page==='publicacoes')renderList('publicacoes','papers-list',publication,'Nenhuma publicação disponível');
     if(page==='servicos')renderList('servicos','services-list',service,'Nenhum serviço cadastrado');
-    if(page==='equipe'){const root=el('team-list');root.innerHTML=records.equipe.length?records.equipe.map(person).join(''):empty('Equipe em atualização','Os perfis aparecerão após o cadastro dos integrantes no sistema administrativo.');if(!records.equipe.length)root.style.display='block';}
+    if(page==='ensino')renderList('ensino','teaching-list',teaching,'Nenhuma atividade de ensino cadastrada');
+    if(page==='equipe'){
+      const partners=records.equipe.filter(x=>x.grupo!=='alunos');
+      const students=records.equipe.filter(x=>x.grupo==='alunos');
+      for(const [id,items,label] of [['team-partners',partners,'Colaboradores e parcerias'],['team-students',students,'Alunos']]){
+        const root=el(id);root.innerHTML=items.length?items.map(person).join(''):empty(label+' em atualização','Cadastre ou reclassifique os integrantes no painel administrativo.');
+      }
+    }
     if(page==='galeria')renderList('galeria','albums-list',cardAlbum,'Nenhum álbum disponível');
     if(page==='noticia')renderDetails('noticias');
     if(page==='album')renderDetails('galeria');

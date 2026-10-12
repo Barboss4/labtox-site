@@ -1,0 +1,7 @@
+LabTox site público v1.0
+Envie os arquivos para labtox-site/main mantendo a estrutura das pastas.
+NÃO envie alterações ao JSON data/labtox-conteudos.json: ele é gerado pelo ADM.
+O novo arquivo ensino.html entra no menu automaticamente após substituir js/site.js.
+A equipe será mostrada em Colaboradores e parcerias / Alunos; fotos na galeria podem ser ordenadas por data.
+Não há novos banners. O CSS mantém as cores anteriores.
+Instale primeiro o ADM e a migração de seu banco. Depois publique este site.
