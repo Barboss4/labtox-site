@@ -10,9 +10,1151 @@
       "aprovado_em": "2026-10-10 19:51:03"
     }
   ],
-  "publicacoes": [],
+  "publicacoes": [
+    {
+      "id": 118,
+      "titulo": "Determination of cobalt in human liver by atomic absorption spectrometry with electrothermal atomization",
+      "autores": "Caldas, E. D.; Ginerosias, M. F.; Dorea, J. G.",
+      "ano": 1991,
+      "revista": "Analytica Chimica Acta (Print). , v.254, p.113 - 116, 1991.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 117,
+      "titulo": "Cobalt-Vitamin B12 interrelationships in liver of fetuses and infants",
+      "autores": "Caldas, E. D.; Dorea, J. G.",
+      "ano": 1992,
+      "revista": "Journal of Nutritional Biochemistry. , v.3, p.539 - 541, 1992.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 116,
+      "titulo": "Structural characterization of three New AAL Toxins Produced by Alternaria Alternata Fsp Lycopersici",
+      "autores": "CALDAS, E. D.; JONES, A. D.; WARD, B.; WINTER, C. K.; GILCHRIST, D. G.",
+      "ano": 1994,
+      "revista": "Journal of Agricultural and Food Chemistry. , v.42, p.327 - 330, 1994.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 115,
+      "titulo": "Electrospray Ionization Mass Spectrometry of Sphinganine Analog Mycotoxins",
+      "autores": "CALDAS, E. D.; JONES, A. D.; WINTER, C. K.; WARD, B.; GILCHRIST, D. G.",
+      "ano": 1995,
+      "revista": "Analytical Chemistry (Washington). , v.67, p.196 - 202, 1995.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 114,
+      "titulo": "Aflatoxinas Em Alimentos Comercializados No Distrito Federal de 1985 A 1995",
+      "autores": "CALDAS, E. D.; SILVA, S. C. E.; OLIVEIRA, J. N.; DEGERING, A. V.",
+      "ano": 1996,
+      "revista": "Revista do Instituto Adolfo Lutz. , v.56, p.47 - 50, 1996.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 113,
+      "titulo": "Characterization Of Epoxide Hydrolase Activity In Alternaria Alternata F.Sp Lycopersici",
+      "autores": "PINOT, F.; CALDAS, E. D.; SCHMIDT, C.; GILCHRIST, D. G.; HAMMOCK, B.",
+      "ano": 1997,
+      "revista": "Possible Involvement In Toxin Production. Mycopathologia. , v.140, p.51 - 58, 1997.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 112,
+      "titulo": "Contaminacao por aflatoxinas e ocratoxina A em alimentos consumidos no Distrito Federal",
+      "autores": "CALDAS, E. D.; SILVA, S. C. E.; OLIVEIRA, J. N.; DEGERING, A. V.",
+      "ano": 1998,
+      "revista": "Revista de Saúde do Distrito Federal (Cessou em 2005. Cont. ISSN 1980-0584 Comunicação em Ciências da Saúde (Impresso)). , v.9, p.44 - 47, 1998.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 111,
+      "titulo": "Biosynthetic Studies of Fumonisin B 1 and AAL Toxins",
+      "autores": "Caldas, Eloisa D.; Sadilkova, Katerina; Ward, Barney L.; Jones, A. Daniel; Winter, Carl K.; Gilchrist, David G.",
+      "ano": 1998,
+      "revista": "Journal of Agricultural and Food Chemistry. , v.46, p.4734 - 4743, 1998.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 110,
+      "titulo": "Residuos de Pesticidas em Alimentos e o Codex Alimentarius",
+      "autores": "CALDAS, E. D.",
+      "ano": 1999,
+      "revista": "Boletim da Sociedade Brasileira de Ciência e Tecnologia de Alimentos. , v.33, p.50 - 56, 1999.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 109,
+      "titulo": "Organochlorine Pesticides In Water, Sediment And Fish Of Paranoa Lake Of Brasilia, Brazil",
+      "autores": "CALDAS, E. D.; COELHO, R.; SOUZA, Luiz Cesar Kenupp de.",
+      "ano": 1999,
+      "revista": "Bulletin of Environmental Contamination and Toxicology. , v.62, p.199 - 206, 1999.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 108,
+      "titulo": "Avaliação de risco crônico da ingestão de resíduos de pesticidas na dieta brasileira",
+      "autores": "CALDAS, E. D.; SOUZA, Luiz Cesar Kenupp de.",
+      "ano": 2000,
+      "revista": "Revista de Saúde Pública / Journal of Public Health. , v.34, p.529 - 537, 2000.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 107,
+      "titulo": "Determination of Dithiocarbamate Fungicide Residues in Food by a Spectrophotometric Method Using a Vertical Disulfide Reaction System",
+      "autores": "Caldas ED, Conceição MH, Miranda MCC, de Sousa LCKR, Lima JF",
+      "ano": 2001,
+      "revista": "Journal of Agricultural and Food Chemistry. , v.49, p.4521 - 4525, 2001.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 106,
+      "titulo": "Aflatoxinas e ocratoxina A em alimentos eriscos para a saúde humana",
+      "autores": "CALDAS, E. D.; SILVA, S. C. E.; OLIVEIRA, J. N.",
+      "ano": 2002,
+      "revista": "Revista de Saúde Pública (USP. Impresso). , v.36, p.319 - 323, 2002.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 105,
+      "titulo": "Susceptibility of Aedes aegypti larvae to the insecticide temephos in the Federal District, Brazil",
+      "autores": "Carvalho, M. S. L.; Caldas, E. D.; Degalier, Nicolas; Souza, Luiz Cesar Kenupp De; Yoshizawa, M. A. C.",
+      "ano": 2004,
+      "revista": "Revista de Saúde Pública / Journal of Public Health. , v.38, p.623 - 629, 2004.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 104,
+      "titulo": "Dithiocarbamates residues in Brazilian food and the potential risk for consumers",
+      "autores": "Caldas ED, Miranda MCC, Conceição MH, de Sousa LCKR",
+      "ano": 2004,
+      "revista": "Food and Chemical Toxicology. , v.42, p.1877 - 1883, 2004.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 103,
+      "titulo": "Chronic dietary risk for pesticide residues in food in Brazil: an update",
+      "autores": "CALDAS, E. D.; SOUZA, L. C. K. R.",
+      "ano": 2004,
+      "revista": "Food Additives and Contaminants (Cessou em 2008. Foi desdobrado em dois: Food Additives & Contaminants. Part B, Surveillance e Food Additives & Contam. , v.21, p.1057 - 1064, 2004.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 102,
+      "titulo": "Cadmium, mercury and lead in medicinal herbs in Brazil",
+      "autores": "Caldas, E.D.; MACHADO, L.L.",
+      "ano": 2004,
+      "revista": "Food and Chemical Toxicology. , v.42, p.599 - 603, 2004.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 101,
+      "titulo": "Uso de agrotóxicos e a incidência de suicídios no estado do Mato Grosso do Sul.",
+      "autores": "PIRES, Dario Chavier; CALDAS, E. D.; RECENA, Maria Celina Piazza.",
+      "ano": 2005,
+      "revista": "Cadernos de Saúde Pública (ENSP. Impresso). , v.21, p.598 - 605, 2005.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 100,
+      "titulo": "Intoxicações provocadas por agrotóxicos de uso agrícola na microrregião de Dourados, Mato Grosso do Sul, Brasil....",
+      "autores": "PIRES, Dario Chavier; CALDAS, E. D.; RECENA, Maria Celina Piazza.",
+      "ano": 2005,
+      "revista": "Cadernos de Saúde Pública (FIOCRUZ). , v.21, p.804 - 814, 2005.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 99,
+      "titulo": "Variability of organophosphorus insecticide residues in large size crops grown in commercial farms in Brazil",
+      "autores": "Caldas, Eloisa; Jardim, Andreia; AMBRUS, Arpad; SOUZA, LUIZ CESAR.",
+      "ano": 2006,
+      "revista": "Food Additives and Contaminants. , v.23, p.148 - 158, 2006.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 98,
+      "titulo": "Probabilistic assessment of the cumulative acute exposure to organophosphorus and carbamate insecticides in the Brazilian diet",
+      "autores": "Caldas, E; Boon, P; Tressou, J.",
+      "ano": 2006,
+      "revista": "Toxicology (Amsterdam). 222, p.132 - 142, 2006.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 97,
+      "titulo": "Pesticides exposure in Culturama, Brazil¿Knowledge, attitudes, and practices",
+      "autores": "RECENA, M; PIRES, D; PONTES, E; CALDAS, E. D.",
+      "ano": 2006,
+      "revista": "Environmental Research (New York, N.Y. Print). , v.102, p.230 - 236, 2006.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 96,
+      "titulo": "Dietary exposure of Brazilian consumers to dithiocarbamate pesticides-A probabilistic approach",
+      "autores": "Caldas, E.D.; TRESSOU, J.; BOON, P.E.",
+      "ano": 2006,
+      "revista": "Food and Chemical Toxicology. , v.44, p.1562 - 1571, 2006.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 95,
+      "titulo": "Acute poisoning with pesticides in the state of Mato Grosso do Sul, Brazil",
+      "autores": "RECENA, Maria Celina Piazza; Pires, Dario Xavier; Caldas, Eloisa Dutra.",
+      "ano": 2006,
+      "revista": "Science of the Total Environment. 357, p.88 - 95, 2006.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 94,
+      "titulo": "Mycotoxins in Corn-Based Food Products Consumed in Brazil: An Exposure Assessment for Fumonisins",
+      "autores": "Caldas, Eloisa D.; Silva, Angela C. S.",
+      "ano": 2007,
+      "revista": "Journal of Agricultural and Food Chemistry. , v.55, p.7974 - 7980, 2007.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 93,
+      "titulo": "Poisonings with pesticides in the Federal District of Brazil",
+      "autores": "Caldas, E. D.; Rebelo, F. M.; Heliodoro, V. O.; Magalhães, Andréa Franco Amoras; Rebelo, Rafaela Maciel.",
+      "ano": 2008,
+      "revista": "Clinical Toxicology (Philadelphia). , v.46, p.1058 - 1063, 2008.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 92,
+      "titulo": "Percepção de risco, atitutes e práticas no uso de agrotóxicos entre agricultores de Culturama, Mato Grosso do Sul",
+      "autores": "Recena, Maria Celina Piazza; Caldas, E. D.",
+      "ano": 2008,
+      "revista": "Revista de Saúde Pública / Journal of Public Health. , v.42, p.294 - 301, 2008.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 91,
+      "titulo": "Exposição humana a substâncias químicas potencialmente tóxicas na dieta e os riscos para saúde",
+      "autores": "Jardim, Andréia Nunes Oliveira; CALDAS, E. D.",
+      "ano": 2009,
+      "revista": "Química Nova (Impresso). , v.32, p.1898 - 1909, 2009.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 90,
+      "titulo": "Avaliação da toxicidade aguda e potencial neurotóxico do óleo-resina de copaíba (C. reticulata)",
+      "autores": "Sachetti CG; Fascinelli M.L.; Sampaio A.J; Lameira O.A.; CALDAS, E. D.",
+      "ano": 2009,
+      "revista": "Revista Brasileira de Farmacognosia (Impresso). , v.19, p.937 - 941, 2009.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 89,
+      "titulo": "Antimony in plasma and skin of patients with cutaneous leishmaniasis - relationship with side effects after treatment with meglumine antimoniate",
+      "autores": "NEVES, Diana Brito da Justa; CALDAS, E. D.; SAMPAIO, Raimunda Nonata Ribeiro.",
+      "ano": 2009,
+      "revista": "TM & IH. Tropical Medicine and International Health (Print). , v.14, p.1515 - 1522, 2009.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 88,
+      "titulo": "Postmortem data related to drug and toxic substance use in the Federal District, Brazil, from 2006 to 2008",
+      "autores": "Campelo E; CALDAS, E. D.",
+      "ano": 2010,
+      "revista": "Forensic Science International. , v.200, p.136 - 140, 2010.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 87,
+      "titulo": "Intoxicação por agrotóxicos no Distrito Federal, Brasil, de 2004 a 2007 - análise da notificação ao Centro de Informação e Assistência Toxicológica",
+      "autores": "REBELO, F. M.; CALDAS, E. D.; HELIODORO, V. O.; REBELO, Rafaela Maciel.",
+      "ano": 2011,
+      "revista": "Ciência e Saúde Coletiva (Impresso). , v.16, p.3493 - 3502, 2011.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 86,
+      "titulo": "Exposure to toxic chemicals in the diet: Is the Brazilian population at risk?",
+      "autores": "Caldas, Eloisa Dutra; JARDIM, Andreia Nunes Oliveira.",
+      "ano": 2012,
+      "revista": "Journal of Exposure Science & Environmental Epidemiology. , v.22, p.1 - 15, 2011.",
+      "resumo": "",
+      "doi": "10.1038/jes.2011.35",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 85,
+      "titulo": "Dietary risk assessment of organophosphorus and dithiocarbamate pesticides in a total diet study at a Brazilian university restaurant",
+      "autores": "CALDAS, E. D.; De Souza, M. V.; Jardim, A. N. O.",
+      "ano": 2011,
+      "revista": "Food Additives & Contaminants. Part A. Chemistry, Analysis, Control, Exposure & Risk Assessment (Print). 2011; 28(1):71-",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 84,
+      "titulo": "Developmental toxicity of copaiba tree (Copaifera reticulata Ducke, Fabaceae) oleoresin in rat",
+      "autores": "Sachetti, Camile G.; de Carvalho, Rosângela R.; Paumgartten, Francisco J.R.; Lameira, Osmar A.; Caldas, Eloisa D.",
+      "ano": 2011,
+      "revista": "Food and Chemical Toxicology. , v.49, p.1080 - 1085, 2011.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 83,
+      "titulo": "Avaliação da qualidade microbiológica da água de consumo humano e de hemodiálise no Distrito Federal em 2009 e 2010",
+      "autores": "Marcheti Ravane Gracy Arment; Caldas, Eloisa Dutra.",
+      "ano": 2011,
+      "revista": "Comunicação em Ciências da Saúde (Impresso). , v.22, p.33 - 40, 2011.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 82,
+      "titulo": "Prescription and illicit psychoactive drugs in oral fluid - Lc-MS/MS method development and analysis of samples from Brazilian drivers",
+      "autores": "Zancanaro, Ivomar; Limberger, Renata Pereira; Bohel, Paula O.; Dos Santos, Maíra Kerpel; De Boni, Raquel B.; Pechansky, Flavio; Caldas, Eloisa Dutra.",
+      "ano": 2012,
+      "revista": "Forensic Science International. 223, .208 - 216, 2012.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 81,
+      "titulo": "Knowledge, Attitudes, Practices and Biomonitoring of Farmers and Residents Exposed to Pesticides in Brazil",
+      "autores": "Pasiani JO; TORRES, P.; SILVA, J. R. C. V.; DINIZ, B. Z.; Caldas, E.D.",
+      "ano": 2012,
+      "revista": "International Journal of Environmental Research and Public Health (Print). , v.9, p.3051 - 3068, 2012.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 80,
+      "titulo": "Brazilian monitoring programs for pesticide residues in food ¿ Results from 2001 to 2010",
+      "autores": "Jardim, Andreia N.O; Caldas, Eloisa D.",
+      "ano": 2012,
+      "revista": "Food Control. , v.25, p.607 - 616, 2012.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 79,
+      "titulo": "Simultaneous analysis of aflatoxins B1, B2, G1, G2, M1 and ochratoxin A in breast milk by high-performance liquid chromatography/fluorescence after liquid-liquid extraction with low temperature purification (LLE-LTP)",
+      "autores": "ANDRADE, PD; SILVA, JLG DA; Caldas, ED.",
+      "ano": 2013,
+      "revista": "J. Chromat. A, 1304, 61-68, 2013",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 78,
+      "titulo": "Mercury Concentration in Breast Milk and Infant Exposure Assessment During the First 90 Days of Lactation in a Midwestern Region of Brazil",
+      "autores": "CUNHA, LR; COSTA, TERESA HM; Caldas, ED.",
+      "ano": 2013,
+      "revista": "Biological Trace Element Research (Online). , v.151, p.30 - 37, 2013.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 77,
+      "titulo": "Investigation of food and water microbiological conditions and foodborne disease outbreaks in the Federal District, Brazil",
+      "autores": "AMARAL, M. M. N.; Caldas, E.D.",
+      "ano": 2013,
+      "revista": "Food Control. , 34, p.235 - 240, 2013.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 76,
+      "titulo": "Incidence of anabolic steroid counterfeiting in Brazil",
+      "autores": "DA JUSTA NEVES, DIANA BRITO; MARCHETI, RAVANE GRACY AMENT; Caldas, Eloisa Dutra.",
+      "ano": 2013,
+      "revista": "Forensic Science International. , v.228, p.e81 - e83, 2013.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 75,
+      "titulo": "Human risk assessment of benzene after a gasoline station fuel leak",
+      "autores": "SANTOS, Mirian dos Anjos; TAVORA, B. E.; KOIDE, S.; CALDAS, E. D.",
+      "ano": 2013,
+      "revista": "Revista de Saúde Pública (Impresso). , v.47, p.335 - 344, 2013.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 74,
+      "titulo": "Aflatoxins in food products consumed in Brazil: a preliminary dietary risk assessment",
+      "autores": "Andrade PD, Silva JLG, Cadas ED",
+      "ano": 2013,
+      "revista": "Food Additives & Contaminants. Part A. Chemistry, Analysis, Control, Exposure & Risk Assessment, 30, 127 - 136, 2013.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 73,
+      "titulo": "Resíduos de medicamentos veterinários em leite e ovos",
+      "autores": "PACHECO-SILVA, E.; SOUZA, J. R.; Caldas, E.D.",
+      "ano": 2014,
+      "revista": "Química Nova (Impresso). , v.37, p.111 - 122, 2014.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 72,
+      "titulo": "Pesticide residues in cashew apple, guava, kaki and peach: GC-;ECD, GC-FPD and LC-MS/MS multiresidue method validation, analysis and cumulative acute risk assessment",
+      "autores": "Jardim, A. N. O.; MELLO, D. C.; GOES, F. C. S.; FROTA JUNIOR, E. F.; Caldas, E.D.",
+      "ano": 2014,
+      "revista": "Food Chemistry. , v.164, p.195 - 204, 2014.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 71,
+      "titulo": "Evaluation of the anti-inflammatory activity of gel with Matricaria recutita L. using a permeation enhancer",
+      "autores": "QUEIROZ, M. B.; LUCENA, G.; CALDAS, E. D.; SILVA, M. V.",
+      "ano": 2014,
+      "revista": "Revista Brasileira de Farmacia. , v.95, p.676 - 694, 2014.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 70,
+      "titulo": "Avaliacao de risco ambiental de ambientes aquaticos afetados pelo uso de agrotoxicos",
+      "autores": "REBELO, Rafaela Maciel; Caldas, E.D.",
+      "ano": 2014,
+      "revista": "Quim. Nova, 37, 1199-1208",
+      "resumo": "",
+      "doi": "10.5935/0100-4042.20140165",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 69,
+      "titulo": "Simultaneous determination of prescription drugs, cocaine, aldicarb and metabolites in larvae from decomposed corpses by LC-MS-MS after solid-liquid extraction with low temperature partitioning",
+      "autores": "FRANÇA, JA; BRANDÃO, M; SODRÉ, FF; Caldas, Eloisa Dutra.",
+      "ano": 2015,
+      "revista": "Forensic Toxicology (Tokyo. Print). , v.33, p.93 - 103, 2015",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 68,
+      "titulo": "Purification and full characterization of citreoviridin produced by Penicillium citreonigrum in Yeast Extract Sucrose (YES) medium",
+      "autores": "Rocha, M.V.; RESCK, I. S.; CALDAS, E. D.",
+      "ano": 2015,
+      "revista": "Food Additives & Contaminants. Part A. Chemistry, Analysis, Control, Exposure & Risk Assessment (Print). ,2015;32(4):584-95",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 67,
+      "titulo": "Dietary supplements: International legal framework and adulteration profiles, and characteristics of products on the Brazilian clandestine market",
+      "autores": "NEVES, Diana Brito da Justa; Caldas, E.D.",
+      "ano": 2015,
+      "revista": "Regulatory Toxicology and Pharmacology. , v.73, p.93 - 104, 2015.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 66,
+      "titulo": "Behavioural and neurotoxic effects of ayahuasca infusion (Banisteriopsis caapi and Psychotria viridis) in female Wistar rat",
+      "autores": "Pic-Taylor, Aline; Motta, Luciana Gueiros Da; Morais, Juliana Alves De; Junior, Willian Melo; Santos, Alana De Fátima Andrade; Campos, Leandro Ambrósio; Mortari, Marcia Renata; Zuben, Marcus Vinicius Von; Caldas, Eloisa Dutra.",
+      "ano": 2015,
+      "revista": "Behavioural Processes (Print). , v.118, p.102 - 110, 2015.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 65,
+      "titulo": "Aflatoxins in cereals: worldwide occurrence and dietary risk assessment",
+      "autores": "ANDRADE, P.D.; Caldas, E.D.",
+      "ano": 2015,
+      "revista": "World Mycotoxin Journal. 8 (4): 415 - 431 , 2015.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 64,
+      "titulo": "Genotoxic evaluations in Wistar rats of the hallucinogenic plant extract ayahuasca",
+      "autores": "MELO JUNIOR, W.; GRISOLIA, C. K.; Caldas, E.D.; PIC-TAYLOR, A.",
+      "ano": 2016,
+      "revista": "International Journal of Phytomedicine. , v.8, p.249 - 256, 2016.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 63,
+      "titulo": "Nimesulide: Dissolution Profile, Validation Of Analyticalmethods For Capsules, And Assessment Of Product Quality",
+      "autores": "SANTOS, B. W. L.; Caldas, E.D.; SILVA, M. V.",
+      "ano": 2016,
+      "revista": "International Journal of Pharmacy and Pharmaceutical Sciences. , v.8, p.27 - 32, 2016.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 62,
+      "titulo": "Detection of Counterfeit Durateston® Using Fourier Transform Infrared Spectroscopy and Partial Least Squares - Discriminant Analysis",
+      "autores": "NEVES, DIANA; TALHAVINI, MÁRCIO; BRAGA, JEZ WILLIAN; ZACCA, JORGE; Caldas, Eloisa D.",
+      "ano": 2017,
+      "revista": "JOURNAL OF THE BRAZILIAN CHEMICAL SOCIETY. , v.28, p.1288 - 1296, 2016.",
+      "resumo": "",
+      "doi": "10.21577/0103-5053.20160293",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 61,
+      "titulo": "Arsenic, lead, mercury and cadmium: Toxicity, levels in breast milk and the risks for breastfed infants",
+      "autores": "REBELO, F. M.; Caldas, E.D.",
+      "ano": 2016,
+      "revista": "Environmental Research (New York, N.Y. Print). , v.151, p.671 - 688, 2016.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 60,
+      "titulo": "Access to medicines in Brazil based on monetary and non-monetary acquisition data obtained from the 2008/2009 Household Budget Survey",
+      "autores": "GOES, F. C. S.; HOMEM-DE-MELLO, M.; Caldas, E.D.",
+      "ano": 2016,
+      "revista": "Revista de Saúde Pública (Online). , v.50, p.1 - 12, 2016.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 59,
+      "titulo": "Preliminary Quantitative Microbial Risk Assessment for Staphylococcus enterotoxins in fresh Minas cheese, a popular food in Brazil",
+      "autores": "NUNES, MARCIA MENEZES; Caldas, Eloisa Dutra.",
+      "ano": 2017,
+      "revista": "Food Control, 73, 524-531, 2017",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 58,
+      "titulo": "Reproductive effects of the psychoactive beverage ayahuasca in male Wistar rats after chronic exposure",
+      "autores": "SANTOS, AFA; VIEIRA, ALS; PIC-TAYLOR, A; Caldas, ED.",
+      "ano": 2017,
+      "revista": "Revista Brasileira de Farmacognosia-Brazilian Journal of Pharmacognosy. , v.27, p.253 - 260, 2017.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 57,
+      "titulo": "Mercury in breast milk from women in the Federal District, Brazil and dietary risk assessment for breastfed infants",
+      "autores": "Rebelo, FM.; Da Cunha, LR.; Andrade, PD.; Da Costa, WA.; Bastos, WR.; Caldas, ED.",
+      "ano": 2017,
+      "revista": "JOURNAL OF TRACE ELEMENTS IN MEDICINE AND BIOLOGY. , v.44, p.99 - 103, 2017.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 56,
+      "titulo": "GC-MS quantitative analysis of black market pharmaceutical products containing anabolic androgenic steroids seized by the Brazilian Federal Police",
+      "autores": "Neves, DBJ; Caldas, ED.",
+      "ano": 2017,
+      "revista": "FORENSIC SCIENCE INTERNATIONAL. , v.275, p.272 - 281, 2017.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 55,
+      "titulo": "Determination of multi-mycotoxins in cereals and of total fumonisins in maize products using isotope labeled internal standard and liquid chromatography/tandem mass spectrometry with positive ionization",
+      "autores": "Andrade, PD; Dantas, RR; Da Silva TL; Caldas, ED.",
+      "ano": 2017,
+      "revista": "Journal of Chromatography. 1490:138 -147, 2017",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 54,
+      "titulo": "Determination of caffeine and identification of undeclared substances in dietary supplements and caffeine dietary exposure assessment",
+      "autores": "Neves, DBJ; Caldas, ED.",
+      "ano": 2017,
+      "revista": "FOOD AND CHEMICAL TOXICOLOGY. , v.105, p.194 - 202, 2017.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 53,
+      "titulo": "Underreporting of fatal poisonings in Brazil - A descriptive study using data from four information systems",
+      "autores": "Magalhães AFA, Caldas ED.",
+      "ano": 2018,
+      "revista": "Forensic Sci Int. 2018;287:136-141",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 52,
+      "titulo": "Maternal and developmental toxicity of the hallucinogenic plant-based beverage ayahuasca in rats",
+      "autores": "Da Motta, LC; De Morais, JA; Tavares, ACAM.; Vianna, LMS; Mortari, MR; Amorim, RFB; Carvalho, RR.; Paumgartten, FJR.; Pic-Taylor,A; Caldas, ED.",
+      "ano": 2018,
+      "revista": "REPRODUCTIVE TOXICOLOGY. 77:1 - 10, 2018.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 51,
+      "titulo": "Dietary cumulative acute risk assessment of organophosphorus, carbamates and pyrethroids insecticides for the Brazilian population",
+      "autores": "JARDIM, Andreia Nunes Oliveira; BRITO, A. P.; DONKERSGOED, G. V.; BOON, P. E.; Caldas, E.D.",
+      "ano": 2018,
+      "revista": "Food and Chemical Toxicology, 112:108-117, 2018.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 50,
+      "titulo": "Probabilistic dietary risk assessment of triazole and dithiocarbamate fungicides for the Brazilian population",
+      "autores": "Jardim ANO, Mello DC, Brito AP, van der Voet Hilko, Boon P, Caldas ED.",
+      "ano": 2018,
+      "revista": "Food and Chemical Toxicology, 118:317-327, 2018.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 49,
+      "titulo": "Exposure to ayahuasca induces developmental and behavioral alterations on early life stages of zebrafish",
+      "autores": "Andrade, T. S.; Oliveira, R.; Grisolia, C. K.; Domingues, I.; Zuben, M. V. V.; Caldas, E.D.; Pic-Taylor, A.",
+      "ano": 2018,
+      "revista": "CHEMICO-BIOLOGICAL INTERACTIONS. , v.293, p.133 - 140, 2018",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 48,
+      "titulo": "Simultaneous determination of drugs and pesticides in postmortem blood using dispersive solid-phase extraction and large volume injection-programmed temperature vaporization-gas chromatography-mass spectrometry",
+      "autores": "Ferrari Jr, Ettore; Caldas, ED.",
+      "ano": 2018,
+      "revista": "Forensic Sci. Int. 2018; 290: 318-326",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 47,
+      "titulo": "Agroquímicos para controle de pragas no Brasil: análise crítica do uso do termo agrotóxico como ferramenta de comunicação de risco",
+      "autores": "Rembischevski P & Caldas ED.",
+      "ano": 2018,
+      "revista": "Vigil. sanit. debate 2018;6(4):2-12",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 46,
+      "titulo": "Dithiocarbamate residues in fruits and leaves of passion fruit (passiflora edulis) different brazilian regions",
+      "autores": "Mozzaquatro JO, Mello DC, Oliveira RCS, Rosa RCC, Costa AM, Caldas ED",
+      "ano": 2019,
+      "revista": "j. braz. chem. soc., 30 (9), 1834-1840, 2019",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 45,
+      "titulo": "Two health information systems to characterize poisoning in Brazil-a descriptive study",
+      "autores": "Magalhães AFA, Caldas ED.",
+      "ano": 2019,
+      "revista": "J Public Health (Oxf). 2019; 41(1):203-211.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 44,
+      "titulo": "Occupational exposure and poisoning by chemical products in the Federal District",
+      "autores": "Magalhaes AFA, Caldas ED",
+      "ano": 2019,
+      "revista": "Rev Bras Enferm [Internet]. 2019;72(Suppl 1):32-40.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 43,
+      "titulo": "Biodiversity of beta- Carboline Profile of Banisteriopsis caapi and Ayahuasca, a Plant and a Brew with Neuropharmacological Potential",
+      "autores": "Santos BWL, Oliveira RC, Sonsin-Oliveira J, Fagg CW, Barbosa JBF, Caldas ED",
+      "ano": 2020,
+      "revista": "Plants, 9, 870, 2020",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 42,
+      "titulo": "Determination of glyphosate, AMPA and glufosinate by high performance liquid chromatography with fluorescence detection in waters of the Santarém Plateau, Brazilian Amazon",
+      "autores": "Nayara L. Pires, Carlos José S. Passos, Moema G. A. Morgado, Denise C. Mello, Carlos Martin C. Infante & Eloisa D. Caldas",
+      "ano": 2020,
+      "revista": "Journal of Environmental Science and Health, Part B, 55, 1-9, 2020",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 41,
+      "titulo": "Risk perception related to food",
+      "autores": "Rembischevski P, Caldas ED.",
+      "ano": 2020,
+      "revista": "Food Sci. Technol, 2020, 1-7",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 40,
+      "titulo": "Toxicity of ayahuasca after 28 days daily exposure and effects on monoamines and brain-derived neurotrophic factor (BDNF) in brain of Wistar rats",
+      "autores": "Colaco CS, Alves SS, Nolli LM, Pinheiro WO, de Oliveira DGR, Santos BWL, Pic-Taylor A, Mortari MR, Caldas ED",
+      "ano": 2020,
+      "revista": "Metabolic Brain Disease, 2020, 35, 739-751 - Ver errata",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 39,
+      "titulo": "Analysis of non-derivatized 2-(4-R-2, 5-dimethoxyphenyl)-N-[(2-hydroxyphenyl)methyl]ethanamine using short column gas chromatography - mass spectrometry",
+      "autores": "Ferrari Junior E., Arantes LC, Salum LB, Caldas ED",
+      "ano": 2020,
+      "revista": "Journal of Chromatography A 1634 (2020) 461657",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 38,
+      "titulo": "Effects of the hallucinogenic beverage ayahuasca on voluntary ethanol intake by rats and on cFos expression in brain areas relevant to drug addiction",
+      "autores": "Nolli LM, de Oliveira DGR, Alves SS, von Zuben MV, Pic-Taylor A, Mortari MR, Caldas ED",
+      "ano": 2020,
+      "revista": "ALCOHOL, 84, 2020, 67-75",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 37,
+      "titulo": "Mycotoxins in cereals and cereal-based products: Incidence and probabilistic dietary risk assessment for the Brazilian population",
+      "autores": "Andrade, P. D., Dias, J. V., Souza, D. M., Brito, A. P., van Donkersgoed, G., Pizzutti, I. R., & Caldas, E. D.",
+      "ano": 2020,
+      "revista": "Food and Chemical Toxicology, 143,111572, 2020",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 36,
+      "titulo": "Errata: Toxicity of ayahuasca after 28 days daily exposure and effects on monoamines and brain-derived neurotrophic factor (BDNF) in brain of Wistar rats",
+      "autores": "Colaco CS, Alves SS, Nolli LM, Pinheiro WO, de Oliveira DGR, Santos BWL, Pic-Taylor A, Mortari MR, Caldas ED.",
+      "ano": 2020,
+      "revista": "Metabolic Brain Disease, 2020, 35, 739-751",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 35,
+      "titulo": "Are Brazilian adolescents eating enough fruits and vegetables? an assessment using data the study of cardiovascular risk in adolescents",
+      "autores": "Brito AO, Caldas ED",
+      "ano": 2021,
+      "revista": "Rev Nutr. 2021;34:e200295",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 34,
+      "titulo": "Drugs, pesticides and metabolites in forensic post-mortem blood samples",
+      "autores": "Ferrari Jr, E; dos Santos, JBA; Caldas, ED.",
+      "ano": 2021,
+      "revista": "MEDICINE SCIENCE AND THE LAW. , v.61, p97 - 104, 2021.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 33,
+      "titulo": "Street and drug use experiences among sheltered children and adolescents in the Federal District of Brazil",
+      "autores": "Gomes NMO, Caldas ED",
+      "ano": 2022,
+      "revista": "J. Child Adolesc Psychiatr Nurs, 2022; 1-9",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 32,
+      "titulo": "Fatal cases involving new psychoactive substances and trends in analytical techniques",
+      "autores": "Ferrari Júnior E, Leite BHM, Gomes EB, Vieira TM, Sepulveda P, Caldas ED.",
+      "ano": 2022,
+      "revista": "Frontiers in Toxicology, 4:1033733, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 31,
+      "titulo": "Components of Banisteriopsis caapi, a Plant Used in the Preparation of the Psychoactive Ayahuasca, Induce Anti-Inflammatory Effects in Microglial Cells",
+      "autores": "Santos BWL, Moreira DC, Borges TKDS, Caldas ED.",
+      "ano": 2022,
+      "revista": "Molecules. 27(8):2500, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 30,
+      "titulo": "Relationship between pesticide standards for classification of water bodies and ecotoxicity: A case study of the Brazilian Directive",
+      "autores": "Araújo EP; Caldas ED; Oliveira-Filho EC",
+      "ano": 2022,
+      "revista": "Toxics, 10, 767, 2022.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 29,
+      "titulo": "Formaldehyde analysis of seized cosmetic products by HS-GC-MS of methylal, ethoxymethoxymethane, and ethylal derivatives",
+      "autores": "Ferrari Júnior E, Salum LB, Damasceno RR, Alves BEP, Caldas ED.",
+      "ano": 2022,
+      "revista": "Braz. J. Pharm. Sci. 58: e20253, 2022.",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 28,
+      "titulo": "Analysis of residues dithiocarbamate fungicides in vegetables produced in the region of vargem bonita, federal district",
+      "autores": "ARAUJO, FJM; MELLO, DC; JUNQUEIRA, AMR; CALDAS, ED.",
+      "ano": 2022,
+      "revista": "horticultura brasileira 40, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 27,
+      "titulo": "Pesticide residues analysis in passion fruit and its processed products by LC-MS/MS and GC-MS/MS: Method validation, processing factors and dietary risk assessment",
+      "autores": "Mozzaquatro JO, Izabelle Araújo César IA, Pinheiro AEB, Caldas ED",
+      "ano": 2022,
+      "revista": "Food Chemistry. 375:131643, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 26,
+      "titulo": "Risk perception of food chemicals and technologies in the Midwest of Brazil: A population-based cross-sectional survey",
+      "autores": "Rembischevski, P, Lauria VBM, Mota LIS, Caldas ED",
+      "ano": 2022,
+      "revista": "Food Control, 135, 108808, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 25,
+      "titulo": "Determination of new psychoactive substances and other drugs in postmortem blood and urine by UHPLCÃ¢â¬âMS/MS: method validation and analysis of forensic samples",
+      "autores": "Ettore Ferrari Júnior, Eloisa Dutra Caldas",
+      "ano": 2022,
+      "revista": "Forensic Toxicology 40:88-101, 2022",
+      "resumo": "",
+      "doi": null,
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 24,
+      "titulo": "Meeting nutritional adequacy in the Brazilian population increases pesticide intake without exceeding chronic safe levels",
+      "autores": "Oliveira DCRS, Jardim ANO, Perignon M, Drogue S, Darmon N, Caldas ED, Verly-Jr E.",
+      "ano": 2022,
+      "revista": "Int J Food Sci Nutr. 73(4):538-551, 2022",
+      "resumo": "",
+      "doi": "10.1080/09637486.2021.2017408",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 23,
+      "titulo": "Plastic antioxidants: A family of cocaine cutting agents analyzed by short column gas chromatography-mass spectrometry",
+      "autores": "Luciano Chaves Arantes, Camilla Morandi da Silva, Eloisa Dutra Caldas",
+      "ano": 2022,
+      "revista": "J. Chromatography A, 1675, 463170, 2022",
+      "resumo": "",
+      "doi": "10.1016/j.chroma.2022.463170",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 22,
+      "titulo": "Pesticides in surface freshwater: a critical review",
+      "autores": "Araújo EP, Caldas ED, Oliveira - Filho EC",
+      "ano": 2022,
+      "revista": "Environ Monit Assess, 194(6):452, 2022",
+      "resumo": "",
+      "doi": "10.1007/s10661-022-10005-y",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 21,
+      "titulo": "Approaches for cumulative dietary risk assessment of pesticides",
+      "autores": "Caldas ED.",
+      "ano": 2023,
+      "revista": "Current Opinion in Food Science, 53:101079, 2023.",
+      "resumo": "",
+      "doi": "10.1016/j.cofs.2023.101079",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 20,
+      "titulo": "Consumers's Trust in Different Sources of Information Related to Food Hazards and Their Judgment of Government Performance - A Cross-Sectional Study in Brazil",
+      "autores": "Rembischevski P, Caldas ED.",
+      "ano": 2023,
+      "revista": "12:3285, 2023.",
+      "resumo": "",
+      "doi": "10.3390/foods12173285",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 19,
+      "titulo": "An ultrasensitive LC-MS/MS method for the determination of glyphosate, AMPA and glufosinate in water - analysis of surface and groundwater from a hydrographic basin in the Midwestern region of Brazil",
+      "autores": "Nayara Luiz Pires, Esmeralda Pereira de Araújo, Eduardo Cyrino Oliveira-Filho, Eloisa Dutra Caldas",
+      "ano": 2023,
+      "revista": "Science of the Total Environment 875, 162499, 2023",
+      "resumo": "",
+      "doi": "10.1016/j.scitotenv.2023.162499",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 18,
+      "titulo": "How do the interview environment, sociodemographic aspects and risk perception impact attitudes related to food? A survey in the Midwest of Brazil",
+      "autores": "Rembischevski P, Caldas ED.",
+      "ano": 2023,
+      "revista": "Food Sci. Technol, 43, e78622, 2023",
+      "resumo": "",
+      "doi": "10.1590/fst.78622",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 17,
+      "titulo": "The Seasonal Characterization and Temporal Evolution of Nitrogen, Phosphorus and Potassium in the Surface and Groundwater of an Agricultural Hydrographic Basin in the Midwestern Brazilian Savanna",
+      "autores": "Pires NL, Muniz DHdF, Araújo LSd, Lima JEFW, Gomes RAT, Caldas ED, Oliveira-Filho EC.",
+      "ano": 2024,
+      "revista": "Sustainability. 16, 7659, 2024",
+      "resumo": "",
+      "doi": "10.3390/su16177659",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 16,
+      "titulo": "Pesticide residues in food of plant origin commercialized in Brazil from 2010 to 2020 â an update from the two national monitoring programs",
+      "autores": "Jardim AO, Caldas ED",
+      "ano": 2024,
+      "revista": "Food Control, 165, 110672, 2024",
+      "resumo": "",
+      "doi": "10.1016/j.foodcont.2024.110674",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 15,
+      "titulo": "Determination of ethylene-bis-dithiocarbamates and their degradation product ethylenethiourea in dry herbs by UHPLC-MS/MS",
+      "autores": "Mello DC, Caldas ED.",
+      "ano": 2024,
+      "revista": "Analytical Methods, 2024, 16, 4539 - 4550",
+      "resumo": "",
+      "doi": "10.1039/D4AY00597J",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 14,
+      "titulo": "Target analysis of psychoactive drugs in oral fluid by QuEChERS extraction and LC-MS/MS",
+      "autores": "Ferrari Jr. E; Bitencourt VS, de Souza ABM, Caldas ED.",
+      "ano": 2024,
+      "revista": "Journal of Pharmaceutical and Biomedical Analysis 244, 116139, 2024",
+      "resumo": "",
+      "doi": "10.1016/j.jpba.2024.116139",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 13,
+      "titulo": "Pesticide residues in dry herbs used for tea preparation by UHPLC-MS/MS: Method validation and analysis",
+      "autores": "Mello, DC; Pires, CL; Evangelista, CS; Caldas, ED.",
+      "ano": 2024,
+      "revista": "Journal of Food Composition and Analysis. 125, 105817, 2024",
+      "resumo": "",
+      "doi": "10.1016/j.jfca.2023.105817",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 12,
+      "titulo": "Brazilian pesticide policy for crops with insufficient phytosanitary support",
+      "autores": "Gomes CA, Caldas ED",
+      "ano": 2025,
+      "revista": "Ciencia Rural, 55:8, e20240535, 2025",
+      "resumo": "",
+      "doi": "10.1590/0103-8478cr20240535",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 11,
+      "titulo": "Immunomodulatory and behavioral effects of ayahuasca and N,N-dimethyltryptamine in a rat model of lipopolysaccharide-induced depression",
+      "autores": "Sousa DN, Azevedo M, Santos ML, Borges TKS, Oliveira DM, Caldas ED.",
+      "ano": 2025,
+      "revista": "Metabolic Brain Disease, 40:220, 2025",
+      "resumo": "",
+      "doi": "10.1007/s11011-025-01650-6",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 10,
+      "titulo": "Pesticides in Ground and Surface Water from the Rio Preto Hydrographic Basin, an Important Agricultural Area in the Midwestern Region of Brazil",
+      "autores": "Pires NL, Araújo EP, Muniz DHF, Oliveira-Filho EC, Caldas ED.",
+      "ano": 2025,
+      "revista": "Water, 17, 1186, 2025",
+      "resumo": "",
+      "doi": "10.3390/w17081186",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 9,
+      "titulo": "A Comprehensive Study to Compare Different Compound Representations for Predicting Carcinogenicity In Vivo",
+      "autores": "Iuri Barbosa Pereira, Rogerio Salvini, Eloisa Dutra Caldas",
+      "ano": 2026,
+      "revista": "Journal of Applied Toxicology, 1-12, 2026",
+      "resumo": "",
+      "doi": "10.1002/jat.70324",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 8,
+      "titulo": "Toxicological aspects of pesticides",
+      "autores": "Eloisa Dutra Caldas",
+      "ano": 2026,
+      "revista": "In: Sustainable Agrochemistry: A Compendium of Technology. Silvio Vaz Jr. Ed. 2nd Edition, 2026. pg 285-317. Springer",
+      "resumo": "",
+      "doi": "10.1007/978-3-032-16472-8_9",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 7,
+      "titulo": "Mycotoxins occurrence in dry herbs used for tea preparation: method validation, analysis of bulk samples and dietary risk assessment",
+      "autores": "Camila Suguiura Evangelista, Denise Carvalho Mello,· Eloisa Dutra Caldas, Patricia Diniz Andrade",
+      "ano": 2026,
+      "revista": "Mycotoxin Research (2026) 42:41",
+      "resumo": "",
+      "doi": "10.1007/s12550-026-00652-2",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 6,
+      "titulo": "Risk Perception of Military Firefighters and Brigades in Relation to Exposure to Smoke from Forest Fires in Brazil",
+      "autores": "Fausto Jaime Miranda de Araujo and Eloisa Dutra Caldas",
+      "ano": 2026,
+      "revista": "Toxics 2026, 14, 431",
+      "resumo": "",
+      "doi": "10.3390/toxics14050431",
+      "aprovado_em": "2026-10-12 19:49:56"
+    },
+    {
+      "id": 5,
+      "titulo": "Cannabinoids in Cannabis sativa L. and oil: Method validation and analysis by LC-MS/MS",
+      "autores": "Drobnjak PSM, Zacca JJ, Caldas ED",
+      "ano": 2026,
+      "revista": "Forensic Science International 379, 112781, 2026",
+      "resumo": "",
+      "doi": "10.1016/j.forsciint.2025.112781",
+      "aprovado_em": "2026-10-12 19:48:26"
+    }
+  ],
   "galeria": [],
   "equipe": [],
   "servicos": [],
-  "gerado_em": "2026-10-10T19:51:05.426Z"
+  "ensino": [],
+  "gerado_em": "2026-10-12T19:51:31.564Z"
 }
