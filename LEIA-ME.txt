@@ -1,0 +1,18 @@
+LABTOX - CONTATO: ENDERECO, MAPA, TELEFONE E E-MAIL
+
+Arquivos desta atualizacao:
+- contato.html (raiz do repositorio labtox-site)
+- css/contato-localizacao.css (dentro de css/)
+
+Na branch main do repositorio Barboss4/labtox-site, substitua contato.html e adicione css/contato-localizacao.css. Aguarde o GitHub Pages publicar e atualize o navegador com Ctrl+F5.
+
+Inclui:
+- mapa incorporado do Campus Universitario Darcy Ribeiro, UnB (referencia geral, nao predio exato do laboratorio);
+- endereco: Universidade de Brasilia, Campus Universitario Darcy Ribeiro, Asa Norte, Brasilia - DF;
+- telefone clicavel: (61) 3107-1871;
+- e-mail clicavel: labtox@unb.br;
+- formulario do FormSubmit preservado (a ativacao continua dependendo do e-mail institucional).
+
+Nao altera: ADM, D1, imagens, sincronizacao, cores globais, nav ou configuracoes do site.
+
+IMPORTANTE: confirmar com a professora/TI se telefone e localizacao sao do laboratorio e apropriados para divulgacao.

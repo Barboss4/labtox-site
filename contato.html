@@ -8,12 +8,44 @@
   <title>Contato | LabTox — Laboratório de Toxicologia</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contato-localizacao.css">
   <script defer src="js/config.js"></script>
   <script defer src="js/site.js"></script>
 </head>
 <body data-page="contato">
   <div id="site-header"></div>
-  <main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Início</a><span aria-hidden="true">/</span>Contato</div><h1>Contato</h1><p>Envie sua mensagem, solicite informações sobre serviços ou proponha uma colaboração.</p></div></section><section class="section" aria-labelledby="contact-heading">
+  <main id="main"><section class="page-hero"><div class="container"><div class="breadcrumb"><a href="index.html">Início</a><span aria-hidden="true">/</span>Contato</div><h1>Contato</h1><p>Envie sua mensagem, solicite informações sobre serviços ou proponha uma colaboração.</p></div></section><section class="contact-location-section" aria-labelledby="contact-location-heading">
+  <div class="container contact-location-grid">
+    <div class="contact-location-map">
+      <iframe
+        src="https://www.google.com/maps?q=Universidade%20de%20Bras%C3%ADlia%20Campus%20Universit%C3%A1rio%20Darcy%20Ribeiro%2C%20Asa%20Norte%2C%20Bras%C3%ADlia%2C%20DF&output=embed"
+        title="Mapa do Campus Universitário Darcy Ribeiro da Universidade de Brasília"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+      <a class="contact-map-action" href="https://www.google.com/maps/search/?api=1&query=Universidade%20de%20Bras%C3%ADlia%20Campus%20Universit%C3%A1rio%20Darcy%20Ribeiro%20Asa%20Norte%20Bras%C3%ADlia%20DF" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a>
+    </div>
+    <div class="contact-location-details">
+      <span class="kicker">Onde estamos</span>
+      <h2 id="contact-location-heading">Informações de contato</h2>
+      <ul class="contact-location-list">
+        <li>
+          <svg class="contact-location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <div><strong>Endereço</strong><address>Universidade de Brasília — Campus Universitário Darcy Ribeiro<br>Asa Norte — Brasília, DF</address><small>Mapa do campus; consulte o laboratório para a localização exata.</small></div>
+        </li>
+        <li>
+          <svg class="contact-location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.11 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.91.68 2.81a2 2 0 0 1-.45 2.11L8.06 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"/></svg>
+          <div><strong>Telefone</strong><a href="tel:+556131071871">(61) 3107-1871</a></div>
+        </li>
+        <li>
+          <svg class="contact-location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          <div><strong>E-mail institucional</strong><a href="mailto:labtox@unb.br">labtox@unb.br</a></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="section contact-form-area" aria-labelledby="contact-heading">
   <div class="container">
     <div class="contact-layout">
       <section class="contact-form-card" aria-labelledby="contact-heading">
@@ -46,10 +78,6 @@
           <p class="form-footnote">Campos marcados com * são obrigatórios. O envio poderá solicitar uma verificação antispam.</p>
         </form>
       </section>
-      <aside class="contact-details" aria-label="Informações de contato">
-        <article class="info-card"><span class="kicker">Contato direto</span><h3>E-mail institucional</h3><p>Prefere escrever pelo seu próprio aplicativo de e-mail?</p><p class="contact-email" id="contact-email"><a href="mailto:labtox@unb.br">labtox@unb.br</a></p><p>Recebemos solicitações de serviços, parcerias e informações sobre as atividades do laboratório.</p></article>
-        <article class="info-card"><span class="kicker">Localização</span><h3>Universidade de Brasília</h3><p id="contact-address">Universidade de Brasília — Brasília, DF</p><p>Informações sobre a universidade e seus espaços no portal oficial.</p><a class="text-link" href="https://www.unb.br/" target="_blank" rel="noopener noreferrer">Portal da UnB ↗</a></article>
-      </aside>
     </div>
   </div>
 </section></main>
